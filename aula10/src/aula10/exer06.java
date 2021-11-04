@@ -35,6 +35,7 @@ public class exer06 {
         } else {
             System.out.println(num3 + " é o menor número");
         }
+        
         scan.close();
     }
 }
