@@ -6,6 +6,7 @@ public class exer01 {
 
     
     public static void main(String[] args) {
+        //Faça um programa que peça dois números e imprima o maior deles
         Scanner scan = new Scanner(System.in);
         
         int num1;
