@@ -1,14 +1,18 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package aula10;
 
-/**
- *
- * @author Ravs
- */
+import java.util.Scanner;
+
+
 public class exer08 {
-    
+    public static void main(String[] args) {
+        /*Faça um Programa que pergunte em que turno você estuda.
+        Peça para digitar M-matutino ou V-Vespertino ou N- Noturno.
+        Imprima a mensagem "Bom Dia!", "Boa Tarde!" ou "Boa Noite!" ou "Valor Inválido!", conforme o caso.*/
+        
+        Scanner scan = new Scanner(System.in);
+        
+        
+        scan.close();
+    }
 }
