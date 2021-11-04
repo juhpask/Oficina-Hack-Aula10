@@ -1,14 +1,22 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package aula10;
 
-/**
- *
- * @author Ravs
- */
+import java.util.Scanner;
 public class exer02 {
-    
+    public static void main(String[] args) {
+        //Faça um Programa que peça um valor e mostre na tela se o valor é positivo ou negativo.
+        Scanner scan = new Scanner(System.in);
+        int num;
+        
+        System.out.println("Entre com um número: ");
+        num = scan.nextInt();
+        
+        if(num>=0) {
+            System.out.println("O número é positivo");
+        } else {
+            System.out.println("O número é negativo");
+        }
+        
+        scan.close();
+    }
 }
